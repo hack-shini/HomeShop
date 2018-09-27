@@ -8,6 +8,10 @@ public class Bill {
 
     private Map<Product, Integer> products;
 
+    public Bill(Customer customer) {
+        this.customer = customer;
+    }
+
     /**
      * Add product with quantity in a Bill
      * @param product product to add
