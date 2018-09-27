@@ -4,11 +4,22 @@ public class Product {
     String description;
     double price;
 
+    /**
+     * Display a description of the product
+     */
+
     public void look(){
 
     }
 
-    public void buy (Bill bill, double price){
+
+    /**
+     * Add the product to a Bill
+     * @param bill Display a bill
+     * @param quantity Display a quantity of the product
+     */
+
+    public void buy (Bill bill, int quantity){
 
     }
 
