@@ -1,3 +1,5 @@
+package com.comenda.HomeShop;
+
 public class Product {
 
     String name;
@@ -14,7 +16,7 @@ public class Product {
 
 
     /**
-     * Add the product to a Bill
+     * Add the product to a com.comenda.HomeShop.Bill
      * @param bill Display a bill
      * @param quantity Display a quantity of the product
      */
