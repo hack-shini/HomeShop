@@ -16,7 +16,7 @@ public class Fridge extends Product {
         return liter;
     }
 
-    public void isFreezer(){
-        freezer = true;
+    public boolean isFreezer(){
+        return freezer;
     }
 }
