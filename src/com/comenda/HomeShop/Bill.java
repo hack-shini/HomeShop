@@ -4,6 +4,9 @@ import java.util.Map;
 
 public class Bill {
 
+    // get = Donner   :::-> On récupère une valeur  || Lecture
+    // set = Modifier :::-> On modifie une valeur   || Ecriture
+
     private Customer customer;
 
     private Map<Product, Integer> products;

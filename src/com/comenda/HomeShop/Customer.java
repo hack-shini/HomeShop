@@ -2,6 +2,9 @@ package com.comenda.HomeShop;
 
 public class Customer {
 
+    // get = Donner   :::-> On récupère une valeur  || Lecture
+    // set = Modifier :::-> On modifie une valeur   || Ecriture
+
     String fullname, adress;
 
     public Customer(String fullname, String adress) {

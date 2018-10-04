@@ -6,6 +6,9 @@ public class Product {
     String description;
     double price;
 
+    // get = Donner   :::-> On récupère une valeur  || Lecture
+    // set = Modifier :::-> On modifie une valeur   || Ecriture
+
 
     public Product(String name, String description, double price) {
         this.name = name;
