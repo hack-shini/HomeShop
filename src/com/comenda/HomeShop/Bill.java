@@ -32,5 +32,7 @@ public class Bill {
     public Map<Product, Integer> getProducts() {
         return products;
     }
+
+
 }
 

@@ -10,6 +10,7 @@ public class Fridge extends Product {
         super(name, description, price);
         this.liter = liter;
         this.freezer = freezer;
+
     }
 
     public int getLiter() {
