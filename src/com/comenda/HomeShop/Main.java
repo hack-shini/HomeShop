@@ -4,6 +4,7 @@ import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.Map;
 
 public class Main {
@@ -38,6 +39,16 @@ public class Main {
         bill.addProduct(cafe,2);
         bill.addProduct(tv,10);
         bill.addProduct(fridge,1);
+
+
+        Product tv2 = new Television("tv","samsung",299,170,"LED");
+
+        System.out.println(((Television) tv2).getSize());
+
+        car.start();
+
+
+
 
 
 

@@ -1,6 +1,6 @@
 package com.comenda.HomeShop;
 
-public class Vehicule {
+public abstract class Vehicule {
 
 
 
@@ -28,13 +28,10 @@ public class Vehicule {
         this.dimensions = dimensions;
     }
 
-    public void start(){
 
-    }
+    public abstract void start();
 
-    public void stop(){
-
-    }
+    public abstract void stop();
 
     public String getDescription() {
         return description;

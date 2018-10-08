@@ -25,11 +25,16 @@ public class Car extends Vehicule {
     }
 
 
-
-    public void startHeadLight (){
-        System.out.println("J'allume mes phares");
-
+    @Override
+    public void start(){
+        System.out.println("Je suis "+getModelName()+" je consomme "+consommation+ "L au 100k et je démarre !");
     }
+
+    @Override
+    public void stop(){
+        System.out.println("Je suis "+getModelName()+" et j'arrête mon moteur "+getTypeMotor());
+    }
+
 
     public void openChest (){
         System.out.println("J'ouvre mon coffre");
