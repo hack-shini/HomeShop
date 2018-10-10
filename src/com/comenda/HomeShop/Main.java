@@ -25,10 +25,11 @@ public class Main {
         });
 
         Product cafe = new Product("Philips","Fait du café 1 - 2 Tasses", 79.99);
-
         Television tv = new Television("LG OQLED", "Télèvision incurvé",1999,170, "LED");
-
         Fridge fridge = new Fridge("BEKO","Frigo beko gris aluminium", 459.99, 460, false);
+
+        Plane avion = new Plane("Avion de ligne Boeing 747","Air France","Boeing 747", "White", 790,
+                2018,26,new int[]{40000,10000,20000});
 
         System.out.println(fridge.getLiter());
 
@@ -46,6 +47,14 @@ public class Main {
         System.out.println(((Television) tv2).getSize());
 
         car.start();
+
+
+        Parisien Aurelie = new Parisien();
+
+        Taxi taxi = new Taxi();
+
+        Aurelie.seDeplacer(avion);
+        Aurelie.seDeplacer(taxi);
 
 
 

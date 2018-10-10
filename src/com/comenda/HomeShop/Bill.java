@@ -1,9 +1,11 @@
 package com.comenda.HomeShop;
 
+import com.sun.security.ntlm.Client;
+
 import java.util.HashMap;
 import java.util.Map;
 
-public class Bill {
+public class Bill implements Delivery{
 
     // get = Donner   :::-> On récupère une valeur  || Lecture
     // set = Modifier :::-> On modifie une valeur   || Ecriture
@@ -14,6 +16,10 @@ public class Bill {
 
     public Bill(Customer customer) {
         this.customer = customer;
+    }
+
+    public Bill (Client, Delivery){
+
     }
 
     /**
@@ -35,5 +41,9 @@ public class Bill {
     }
 
 
+    @Override
+    public void getPrice(double price) {
+
+    }
 }
 
