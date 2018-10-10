@@ -2,5 +2,5 @@ package com.comenda.HomeShop;
 
 public interface Delivery {
 
-    public void getPrice(double price);
+    public double getPrice();
 }

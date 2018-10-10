@@ -5,22 +5,38 @@ import com.sun.security.ntlm.Client;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Bill implements Delivery{
+public class Bill{
 
     // get = Donner   :::-> On récupère une valeur  || Lecture
     // set = Modifier :::-> On modifie une valeur   || Ecriture
 
-    private Customer customer;
 
+
+    // ALL ATTRIBUTS
+
+    private Customer customer;
+    private Delivery delivery;
     private Map<Product, Integer> products = new HashMap<Product, Integer>();
+
+
+
+
+    // --- CONSTRUCTORS
 
     public Bill(Customer customer) {
         this.customer = customer;
     }
 
-    public Bill (Client, Delivery){
 
+    public Bill (Customer customer, Delivery delivery){
+        this.customer = customer;
+        this.delivery = delivery;
     }
+
+
+
+
+    // ALL OTHERS METHODS
 
     /**
      * Add product with quantity in a Bill
@@ -32,6 +48,10 @@ public class Bill implements Delivery{
         this.products.put(product, quantity);
     }
 
+
+
+    // ALL GETTERS AND SETTERS
+
     public Customer getCustomer() {
         return customer;
     }
@@ -40,10 +60,5 @@ public class Bill implements Delivery{
         return products;
     }
 
-
-    @Override
-    public void getPrice(double price) {
-
-    }
 }
 
