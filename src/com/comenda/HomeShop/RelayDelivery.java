@@ -21,4 +21,9 @@ public class RelayDelivery implements Delivery {
         }
 
     }
+
+    @Override
+    public String getInfo() {
+        return "Relay Delivery";
+    }
 }
