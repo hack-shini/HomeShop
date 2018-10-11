@@ -1,11 +1,14 @@
 package com.comenda.HomeShop;
 
-import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
+import com.comenda.HomeShop.Electro.Fridge;
+import com.comenda.HomeShop.Electro.Television;
+import com.comenda.HomeShop.garage.Car;
+import com.comenda.HomeShop.garage.Parisien;
+import com.comenda.HomeShop.garage.Plane;
+import com.comenda.HomeShop.garage.Taxi;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
 
 public class Main {
 

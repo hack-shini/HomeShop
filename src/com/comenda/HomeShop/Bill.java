@@ -48,6 +48,10 @@ public class Bill{
         this.products.put(product, quantity);
     }
 
+    public void generate(Writer){
+
+    }
+
 
 
     // ALL GETTERS AND SETTERS
@@ -58,6 +62,10 @@ public class Bill{
 
     public Map<Product, Integer> getProducts() {
         return products;
+    }
+
+    public double getTotal(){
+        return getTotal();
     }
 
 }

@@ -1,4 +1,6 @@
-package com.comenda.HomeShop;
+package com.comenda.HomeShop.Electro;
+
+import com.comenda.HomeShop.Product;
 
 public class Fridge extends Product {
 

@@ -1,4 +1,4 @@
-package com.comenda.HomeShop;
+package com.comenda.HomeShop.garage;
 
 public interface MoyenDeLocomotion {
 

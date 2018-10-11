@@ -1,6 +1,8 @@
-package com.comenda.HomeShop;
+package com.comenda.HomeShop.Electro;
 
-public class Television extends Product{
+import com.comenda.HomeShop.Product;
+
+public class Television extends Product {
 
     private int size;
     private String slabType;
